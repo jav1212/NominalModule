@@ -1,8 +1,10 @@
+import Dashboard from "@/sections/shared/ui/pages/Dashboard"
+
 const page = () => {
     return (
-      <main>
-        Dashboard
-      </main>
+      <div className="flex h-full w-full">
+        <Dashboard/>
+      </div>
     )
 }
 
